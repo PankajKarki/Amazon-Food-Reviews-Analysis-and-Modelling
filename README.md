@@ -134,7 +134,7 @@ using seaborne
 2. BOW Featurization in GBDT (BASE-LEARNERS=700, DEPTH=5, LEARNING-RATE=0.1) gave the best results with F1-score of 0.934.
 <hr>
 
-### 6 LSTM(RNNs)
+### 7 LSTM(RNNs)
 1. Applied different architectures of LSTM on Amazon fine food reviews dataset
 2. Recurrent Neural Networks(RNN) with one LSTM layer.
 3. Recurrent Neural Networks(RNN) with two LSTM layer.

@@ -1,7 +1,7 @@
 # Amazon-Food-Reviews-Analysis-and-Modelling Using Various Machine Learning Models
 
 
-#### Performed Exploratory Data Analysis, Data Cleaning, Data Visualization and Text Featurization(BOW, tfidf, Word2Vec). Build several ML models like KNN, Naive Bayes, Logistic Regression, SVM, Random Forest, GBDT etc.
+#### Performed Exploratory Data Analysis, Data Cleaning, Data Visualization and Text Featurization(BOW, tfidf, Word2Vec). Build several ML models like KNN, Naive Bayes, Logistic Regression, SVM, Random Forest, GBDT, LSTM(RNNs) etc.
 
 ### Objective:
 Given a text review, determine the sentiment of the review whether its positive or negative.
@@ -132,5 +132,18 @@ using seaborne
 ###### Conclusions:
 1. AVG_W2VEC Featurization in Random Forest (BASE-LEARNERS=300) with random search gave the best results with F1-score of 0.924.
 2. BOW Featurization in GBDT (BASE-LEARNERS=700, DEPTH=5, LEARNING-RATE=0.1) gave the best results with F1-score of 0.934.
+<hr>
+
+### 6 LSTM(RNNs)
+1. Applied different architectures of LSTM on Amazon fine food reviews dataset
+2. Recurrent Neural Networks(RNN) with one LSTM layer.
+3. Recurrent Neural Networks(RNN) with two LSTM layer.
+
+###### Performance Table
+<img src="https://i.ibb.co/BjsZn9W/Untitled.png" />
+
+###### Conclusions:
+1. After including more than one LSTM layers the test accuracy has increased.
+2. Both the models are overfit
 <hr>
 
